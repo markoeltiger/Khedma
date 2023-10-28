@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1068030194673",
+    "project_id": "khedma-5181c",
+    "storage_bucket": "khedma-5181c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1068030194673:android:f61abdbb2c69ad0d82ca50",
+        "android_client_info": {
+          "package_name": "com.mark.khedma"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkG-d-h-0ep1fZ93xqu71m_OzKMCC1KDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
