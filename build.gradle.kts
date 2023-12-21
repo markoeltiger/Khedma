@@ -6,11 +6,12 @@ buildscript {
         mavenCentral()
     }
     dependencies {
+        var nav_version = "2.5.3"
         classpath("io.realm.kotlin:gradle-plugin:1.11.1")
         classpath("com.google.gms:google-services:4.4.0")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.10")
         classpath ("com.google.dagger:hilt-android-gradle-plugin:2.47")
-
+        classpath("androidx.navigation:navigation-safe-args-gradle-plugin:$nav_version")
 
     }
 }

@@ -2,10 +2,10 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     kotlin("kapt")
-
     id("io.realm.kotlin")
     id("dagger.hilt.android.plugin")
     id("com.google.gms.google-services")
+    id("androidx.navigation.safeargs")
 
 
 }
@@ -76,6 +76,7 @@ dependencies {
     //Dagger-Hilt
     implementation("com.google.dagger:hilt-android:2.47")
     kapt ("androidx.hilt:hilt-compiler:1.1.0-rc01")
+    implementation ("androidx.hilt:hilt-navigation-compose:1.0.0")
     kapt("com.google.dagger:hilt-android-compiler:2.47")
     kapt ("androidx.hilt:hilt-compiler:1.0.0")
 
@@ -83,4 +84,10 @@ dependencies {
     kapt ("com.google.dagger:dagger-compiler:2.47")
     // Firebase
     implementation(platform("com.google.firebase:firebase-bom:30.2.0"))
+    // Navigation
+    val nav_version = "2.7.5"
+    implementation ("androidx.navigation:navigation-compose:$nav_version")
+    implementation("androidx.navigation:navigation-fragment-ktx:2.6.0")
+    implementation("androidx.navigation:navigation-ui-ktx:2.6.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.1")
 }
